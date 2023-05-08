@@ -14,9 +14,13 @@
 		04926A0D29FE45A1004F72B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04926A0C29FE45A1004F72B1 /* Assets.xcassets */; };
 		04926A1029FE45A1004F72B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04926A0E29FE45A1004F72B1 /* LaunchScreen.storyboard */; };
 		04926A1329FE45A1004F72B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04926A1229FE45A1004F72B1 /* main.m */; };
+		04926A1B29FE477E004F72B1 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04926A1A29FE477E004F72B1 /* TableViewController.m */; };
+		04926A2729FE5C9E004F72B1 /* MyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04926A2629FE5C9E004F72B1 /* MyTask.m */; };
+		04926A2A29FE92D7004F72B1 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04926A2929FE92D7004F72B1 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0442774D29FED433005A5057 /* HomeDeleget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeDeleget.h; sourceTree = "<group>"; };
 		049269FD29FE45A0004F72B1 /* Ammar_ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ammar_ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04926A0029FE45A0004F72B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04926A0129FE45A0004F72B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		04926A0F29FE45A1004F72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04926A1129FE45A1004F72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04926A1229FE45A1004F72B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04926A1929FE477D004F72B1 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		04926A1A29FE477E004F72B1 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		04926A2529FE5C9E004F72B1 /* MyTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTask.h; sourceTree = "<group>"; };
+		04926A2629FE5C9E004F72B1 /* MyTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTask.m; sourceTree = "<group>"; };
+		04926A2829FE92D7004F72B1 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		04926A2929FE92D7004F72B1 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,13 @@
 				04926A0E29FE45A1004F72B1 /* LaunchScreen.storyboard */,
 				04926A1129FE45A1004F72B1 /* Info.plist */,
 				04926A1229FE45A1004F72B1 /* main.m */,
+				04926A1929FE477D004F72B1 /* TableViewController.h */,
+				04926A1A29FE477E004F72B1 /* TableViewController.m */,
+				04926A2529FE5C9E004F72B1 /* MyTask.h */,
+				04926A2629FE5C9E004F72B1 /* MyTask.m */,
+				04926A2829FE92D7004F72B1 /* DetailsViewController.h */,
+				04926A2929FE92D7004F72B1 /* DetailsViewController.m */,
+				0442774D29FED433005A5057 /* HomeDeleget.h */,
 			);
 			path = Ammar_ToDo;
 			sourceTree = "<group>";
@@ -149,6 +166,9 @@
 				04926A0829FE45A0004F72B1 /* ViewController.m in Sources */,
 				04926A0229FE45A0004F72B1 /* AppDelegate.m in Sources */,
 				04926A1329FE45A1004F72B1 /* main.m in Sources */,
+				04926A1B29FE477E004F72B1 /* TableViewController.m in Sources */,
+				04926A2A29FE92D7004F72B1 /* DetailsViewController.m in Sources */,
+				04926A2729FE5C9E004F72B1 /* MyTask.m in Sources */,
 				04926A0529FE45A0004F72B1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
